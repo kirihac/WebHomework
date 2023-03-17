@@ -1,0 +1,57 @@
+html {
+    background-color: #291414;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+header{
+    background: rgb(56, 2, 2);
+    height: 100px;
+}
+                    
+h1{
+    color: lightblue;
+    text-align: center;
+}
+h2{
+    color: rgb(199, 141, 141);
+    text-align: center;
+}
+
+img{
+    width: 60%;
+    margin: 0 auto;
+    
+}
+
+article{
+    padding: 10px;
+    margin: 10px;
+    background: #412121;
+    width: fit-content;
+    align-items: center;
+}        
+
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:  wrap;
+}
+
+article{
+    flex:  300px 1;
+    flex-flow: row wrap;
+}
+article :nth-of-type(4) div :first-child{
+    display: flex;
+    flex:  300px 1;
+    flex-flow: column wrap;
+    justify-content: space-around;
+
+}
+
+        
